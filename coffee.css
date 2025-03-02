@@ -733,7 +733,7 @@ nav {
 
 
 .drink-position-div {
-    width: 400px;
+    width: 100%;
     position: absolute;
     background-color: #3c302fa1;
     z-index: 1;
