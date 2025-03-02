@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @media screen and (max-width: 1200px) {
 
     .center-text-div h1 {
@@ -304,4 +305,298 @@
         height: 180px;
     }
 
+=======
+@media screen and (max-width: 1200px) {
+
+    .center-text-div h1 {
+        font-size: 50px;
+        margin: 80px 0px 20px 40px;
+    }
+
+    .center-text-div p {
+        font-size: 16px;
+        margin: 0px 0px 40px 40px;
+        font-family: "Nunito", serif;
+    }
+
+    .btn1 {
+        margin: 0px 20px 40px 40px;
+
+    }
+
+    .imag-container {
+        justify-content: space-evenly;
+        gap: 25px 35px;
+    }
+
+    .map-img img {
+        max-width: 450px;
+    }
+
+    .map-img-logo img {
+        max-width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+    .container {
+        width: 95%;
+    }
+
+    .logo {
+        width: 60px;
+    }
+
+    .nav-ul a {
+        font-size: 12px;
+    }
+
+    .about-div h2 {
+        padding: 0px 0px 20px 40px;
+    }
+
+    .about-div p {
+        padding: 0px 30px 30px;
+    }
+
+    .iframe-div iframe {
+        width: 500px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .nav-icon a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .center-text-div h1 {
+        font-size: 30px;
+        margin: 60px 0px 20px 40px;
+    }
+
+    .center-text-div p {
+        width: 100%;
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px 100px 20px 40px;
+    }
+
+    .center-btn {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .imag-div {
+        width: 250px;
+        height: 260px;
+    }
+
+    .menu-div p {
+        text-align: center;
+        padding: 0px 15px 30px 15px;
+    }
+
+    .imag-bottom h3 {
+        font-size: 25px;
+    }
+
+    .imag-bottom {
+        width: 300px;
+    }
+
+    .imag-bottom img {
+        width: 300px;
+        height: 250px;
+    }
+
+    .map-img-logo {
+        flex-direction: row;
+        gap: 0px;
+    }
+
+    .map-img {
+        padding: 50px 0px 50px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .container {
+        width: 100%;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .hamebar {
+        display: flex;
+        font-size: 20px;
+        color: #e1b995;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+
+    .nav-div {
+        justify-content: space-evenly;
+    }
+
+    .nav-ul {
+        display: none;
+    }
+
+    /* .nav-icon {
+
+    } */
+
+    .center-text-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .center-text-div h1 {
+        margin: 0;
+        font-size: 25px;
+    }
+
+
+    .center-text-div p {
+        display: none;
+    }
+
+    .center-text-div h6 {
+        display: flex;
+        font-size: 20px;
+        line-height: 20px;
+        font-weight: lighter;
+        font-family: "Nunito", serif;
+        color: #fff;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .center-btn {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+
+    .about-section {
+        padding: 10px 0px 25px 0px;
+    }
+
+    .about-div h2 {
+        padding: 0px 0px 5px 40px;
+    }
+
+    .imag-div {
+        width: 200px;
+        height: 210px;
+    }
+
+    .manu-section {
+        padding: 10px;
+    }
+
+    .menu-div h2 {
+        padding: 0;
+    }
+
+    .menu-div p {
+        padding: 0;
+    }
+
+    .imag-div-bottom {
+        flex-wrap: wrap;
+    }
+
+    .imag-bottom {
+        width: 200px;
+    }
+
+    .imag-bottom h3 {
+        padding: 20px 0px;
+        font-size: 20px;
+    }
+
+    .imag-bottom img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .map-text {
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .map-img {
+        padding: 0px 0px 50px;
+    }
+
+    .map-img img {
+        max-width: 350px;
+    }
+
+    .map-img-logo {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .map-img-logo img {
+        max-width: 300px;
+        margin-top: 20px;
+    }
+
+    .location-section-div {
+        padding: 20px 5px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .houks {
+        width: 100%;
+    }
+
+    .houks h5 {
+        font-size: 25px;
+        padding-bottom: 0px;
+    }
+
+    .iframe-div {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .iframe-div iframe {
+        width: 360px;
+        height: 180px;
+    }
+
+>>>>>>> 1f828e8 (first commit)
 }
