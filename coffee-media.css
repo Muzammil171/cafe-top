@@ -534,7 +534,7 @@
         flex-wrap: wrap;
     }
 
-    /* .imag-bottom {
+    .imag-bottom {
         width: 200px;
     }
 
@@ -552,7 +552,7 @@
     .imag-bottom img {
         width: 200px;
         height: 150px;
-    } */
+    }
 
     .map-text {
         text-align: center;
