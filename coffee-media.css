@@ -472,6 +472,10 @@
         display: none;
     }
 
+    .center-img-div {
+        height: 300px;
+    }
+
     .center-text-div {
         display: flex;
         flex-direction: column;
