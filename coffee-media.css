@@ -452,24 +452,28 @@
     }
 
     .logo {
-        width: 50px;
+        width: 80px;
     }
 
     .hamebar {
         display: flex;
         font-size: 20px;
         color: #e1b995;
-        position: absolute;
-        top: 15px;
-        left: 20px;
     }
 
     .nav-div {
-        justify-content: space-evenly;
+        justify-content: space-between;
+        padding-inline: 20px;
     }
 
     .nav-ul {
         display: none;
+    }
+
+    .nav-icon a {
+        width: 25px;
+        height: 25px;
+        font-size: 16px;
     }
 
     .center-img-div {
